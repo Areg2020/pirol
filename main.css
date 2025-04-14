@@ -1,0 +1,45 @@
+:root{
+  --color-accent: #10c9c3 ;
+  --color-black:#000;
+  --color-white: #fff;
+  --color-dark:#222;
+  --color-gray: #888;
+  --color-light: #eee;
+  font-size: ;
+  --fz-xs: 12px;
+  --fz-s: 16px;
+  --fz-m: 18px;
+  --fz-l: 24px ;
+  --fz-xl: 36px;
+}
+
+* {
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0; 
+}
+body{
+    min-height: 100vh;
+
+}
+.container {
+    width: 94%;
+    height: 100%;
+    margin: auto;
+    max-width: 1600px;
+    border: 3px solid #111;
+}
+.hero{
+
+}
+.hero_wrap{
+  
+}
+.hero_block{
+  
+}
+.hero_heading{
+  
+}
+hero_text
+hero_button
