@@ -1,6 +1,7 @@
 :root {
   /* Colors */
   --color-accent: #10c9c3;
+  --color-accent-hover :#0aa;
   --color-black: #000;
   --color-white: #fff;
   --color-gray-1: #222;
@@ -30,7 +31,10 @@ body {
   min-height: 100vh;
   font-family: "Montserrat", sans-serif;
 }
-
+::selection{
+  background: var(--color-accent);
+  color: var(--color-white);
+}
 .common_heading {
   font-size: var(--fz-xl);
   font-weight: 500;
@@ -366,10 +370,140 @@ box-shadow: 0 0 20px var(--color-gray-4);
   transition: 0.3s;
 }
 .work_button:hover{
-  background: #000;
+  background: var(--color-accent-hover);
   transition: 0.3s;
 }
 .work_buuton > i {
   translate: 3px;
 }
 
+
+.review {
+  background: var(--color-accent);
+  color: var(--color-white);
+}
+.review_wrap {
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.review_btn {
+  position: absolute;
+}
+.review_btn_left {
+  
+}
+.review_btn {
+  
+}
+.review_btn_right {
+  
+}
+.review_box {
+  
+}
+.review_text {
+  
+}
+.review_text {
+  
+}
+.review_pages {
+  
+}
+.review_line {
+  
+}
+.review_active {
+  
+}
+.common_input{
+  font-size: var(--fz-s);
+  color: var(--color-gray-2);
+  font-weight: 400;
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 1.5;
+  border-radius: 4px ;
+  border: 1px solid var(--color-gray-3);
+  padding: 8px 14px;
+}
+.project{
+   background: var(--color-gray-5);
+   padding: 80px 0;
+}
+.project_wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.project_form{
+  width: 100%;
+  max-width: 600px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 4fr 1fr;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-areas: 
+  "name email"
+  "title title "
+  "comment comment"
+  "button button "
+  ;
+  gap: 1em;
+}
+.project_heading{
+ grid-area: heading;
+}
+.project_text{
+  max-width: 500px;
+}
+.project_input_name{
+  grid-area: name;
+}
+.project_input_email{
+  grid-area: email;
+}
+.project_input_title{
+  grid-area: title;
+}
+.project_input_comment{
+  resize: none;
+  grid-area: comment;
+}
+.project_button{
+   background: var(--color-accent);
+   border-radius: 4px ;
+   font-family: "Nunuto snas" sans-serif;
+   font-size: var(--fz-s);
+   font-weight: 400;
+   border: none;
+   padding: 8px 48px ;
+   color: var(--color-white);
+   grid-area: button;
+   justify-self: center;
+}
+.project_button:hover{
+  background: var(--color-accent-hover);
+  transition: 0.3s;
+}
+.footer{
+
+}
+.footer_wrap{
+  
+}
+.footer_info{
+  
+}
+.footer_company{
+  
+}
+.footer_text{
+  
+}
+.footer_contact{
+  
+}
