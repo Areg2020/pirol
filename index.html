@@ -1,88 +1,115 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pirol</title>
+    <title>Piroll</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <!-- <header class="header">
-        <div class="container">
-            <div class="header_wrap">
-                <img src="./img/favicon.png" alt="" class="header_logo">
-                <div class="header_nav">
-                    <ul class="header_navlist">
-                        <li class="header_link header_active"><a href="#hero">Home</a></li>
-                        <li class="header_link"><a href="#about">About</a></li>
-                        <li class="header_link"><a href="">T</a></li>
-                        <li class="header_link"><a href="">Test</a></li>
-                        <li class="header_link"><a href="">Test</a></li>
-                        <li class="header_link"><a href="">Test</a></li>
-                        <li class="header_link"><a href="">Test</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        </div>
-    </header> -->
-    <main class="main">
-        <section class="hero" id="hero">
+   <header>
+        <div class="header">
             <div class="container">
-                <div class=" hero_wrap">
-                    <div class="hero_block">
-                        <h1 class="hero_heading common_heading">We Design and Develop</h1>
-                        <p class="hero_text common_text">
-                            We are a new design studio based in USA. We have over 20 years of
-                            combined experience, and know a thing or two about designing websites
-                            and mobile apps.
-                        </p>
-                        <button class="hero_button">contact us</button>
+                <div class="header_wrap">
+                    <div class="header_logo">
+                        <img src="./img/favicon.png" alt="">
                     </div>
+                    <input type="checkbox"  id="burger_check">
+                    <label class="burger" for="burger_check">
+                     <div class="line top"></div>
+                    <div class="line middle"></div>
+                    <div class="line bottom"></div>
+                    </label>
+                    <nav class="header_nav">
+                        <ul class="header_navlist">
+                            <li class="header_link header_active">
+                                <a href="#hero">Home</a>
+                            </li>
+                            <li class="header_link">
+                                <a href="#about">About</a>
+                            </li>
+                            <li class="header_link">
+                                <a href="#skills">Skills</a>
+                            </li>
+                            <li class="header_link">
+                                <a href="#gallery">Gallery</a>
+                            </li>
+                            <li class="header_link">
+                                <a href="#work">Work</a>
+                            </li>
+                           
+                            <li class="header_link">
+                                <a href="#project">Project</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-        </section>>
-        <section class="about" id="about">
-            <div class="container">
-                <div class="about_wrap">
-                    <h2 class="about_heading common_heading">About us</h2>
-                    <p class="about_text common_text">About Us
-                        Divide have don't man wherein air fourth. Own itself make have night won't make. A
-                        you under Seed appear which good give. Own give air without fowl moveth dry first
-                        heaven fruit, dominion she'd won't very all.</p>
-                    <div class="about_image"><img src="./img/sign-w.jpg" alt=""></div>
-                </div>
-            </div>
-        </section>
-        <section class="skills">
-            <div class="container">
-                <div class="skills_wrap">
-                <div class="skills_left">
-                    <h2 class="skills_heading common_heading">Professional skills</h2>
-                    <div class="skills_block">
-                        <div class="skills_item">
-                            <div class="skills_text">
-                                <div class="skills_title">UI/UX Design</div>
-                                <div class="skills_percent">75%</div>
-                            </div>
-                            <div class="skills_line">
-                                <div id="lv75" class="skills_level"></div>
+        </div>
+    </header>
+    <main>
+     
+            <section class="hero" id="hero">
+
+                <div class="container">
+                    <div class="hero_wrap">
+                        <div class="hero_block">
+                            <h1 class="hero_heading common_heading">We Design and Develop</h1>
+                            <p class="hero_text common_text">We are a new design studio based in USA. We have over 20
+                                years of
+                                combined experience, and know a thing or two about designing websites
+                                and mobile apps.</p>
+                                <a  href="#project" class="hero_button"> contact us</a>
                             </div>
                         </div>
-                        <div class="skills_item">
-                            <div class="skills_text">
-                                <div class="skills_title">web development</div>
+                </div>
+            </section>
+          <section class="about" id="about">
+            <div class="container">
+                <div class="about_wrap">
+                    <h2 class="about_heading common_heading">About Us</h2>
+                    <p class="about_text common_text">Divide have don't man wherein air fourth. Own itself make have
+                        night won't make. A
+                        you under Seed appear which good give. Own give air without fowl moveth dry first
+                        heaven fruit, dominion she'd won't very all.</p>
+                        <div class="about_img"><img src="./img/sign-w.jpg" alt=""></div>
+                        
+                    </div>
+                </div>
+            </section>
+            
+       
+           <section class="skills" id="skills">
+            <div class="container">
+                <div class="skills_wrap">
+                    <div class="skills_left">
+                        <h2 class="skills_heading common_heading">Professional Skills</h2>
+                        <div class="skills_block">
+                            <div class="skills_item">
+                                <div class="skills_text">
+                                    <div class="skills_title">UI/UX Design</div>
+                                    <div class="skills_percent">75%</div>
+                                </div>
+                                <div class="skills_line">
+                                    <div class="skills_level" id="lvl_75"></div>
+                                </div>
+                            </div>
+                            <div class="skills_item">
+                                <div class="skills_text">
+                                    <div class="skills_title">web development</div>
                                 <div class="skills_percent">90%</div>
                             </div>
-                            <div class="skills_line ">
-                                <div id="lv90" class="skills_level"></div>
+                            <div class="skills_line">
+                                <div class="skills_level" id="lvl_90"></div>
                             </div>
                         </div>
                         <div class="skills_item">
@@ -91,7 +118,7 @@
                                 <div class="skills_percent">65%</div>
                             </div>
                             <div class="skills_line">
-                                <div id="lv65" class="skills_level"></div>
+                                <div class="skills_level" id="lvl_65"></div>
                             </div>
                         </div>
                     </div>
@@ -99,167 +126,244 @@
             </div>
         </div>
     </section>
-    <section class="stats">
+     <section class="stats" id="stats">
         <div class="container">
             <div class="stats_wrap">
                 <div class="stats_item">
-                    <div class="stats_icon"><i class="pe-7s-portfolio"></i></div>
+                    <div class="stats_icon">
+                        <i class="pe-7s-portfolio"></i>
+                    </div>
                     <div class="stats_num">548</div>
-                    <div class="stats_text">Projects Completed</div>
+                    <div class="stats_text">projects completed</div>
                 </div>
                 <div class="stats_item">
-                    <div class="stats_icon"><i class="pe-7s-clock"></i></div>
+                    <div class="stats_icon">
+                        <i class="pe-7s-clock"></i>
+                    </div>
                     <div class="stats_num">1465</div>
-                    <div class="stats_text">Working Hours</div>
+                    <div class="stats_text">WORKING HOURS</div>
                 </div>
                 <div class="stats_item">
-                    <div class="stats_icon"><i class="pe-7s-star"></i></div>
+                    <div class="stats_icon">
+                        <i class="pe-7s-star"></i>
+                    </div>
                     <div class="stats_num">612</div>
-                    <div class="stats_text">Positive Feedbacks</div>
+                    <div class="stats_text">POSITIVE FEEDBACKS</div>
                 </div>
                 <div class="stats_item">
-                    <div class="stats_icon"><i class="pe-7s-like"></i></div>
+                    <div class="stats_icon">
+                        <i class="pe-7s-like"></i>
+                    </div>
                     <div class="stats_num">735</div>
-                    <div class="stats_text">Happy Clients</div>
+                    <div class="stats_text">HAPPY CLIENTS</div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="gallery">
+   <section class="gallery" id="gallery">
         <div class="container">
             <div class="gallery_wrap">
                 <div class="gallery_grid">
+                    
+                    
                     <div class="gallery_item">
-                        <img src="./img/g1.jpg" alt="Gallery image #1">
+                        <img src="./img/g1.jpg" alt="Galary#1">
                         <div class="gallery_hover"><i class="pe-7s-look"></i></div>
                     </div>
                     <div class="gallery_item">
-                        <img src="./img/g2.jpg" alt="Gallery image #2">
+                        <img src="./img/g2.jpg" alt="Galary#2">
                         <div class="gallery_hover"><i class="pe-7s-look"></i></div>
                     </div>
                     <div class="gallery_item">
-                        <img src="./img/g3.jpg" alt="Gallery image #3">
+                        <img src="./img/g3.jpg" alt="Galary#3">
                         <div class="gallery_hover"><i class="pe-7s-look"></i></div>
                     </div>
                     <div class="gallery_item">
-                        <img src="./img/g4.jpg" alt="Gallery image #4">
+                        <img src="./img/g4.jpg" alt="Galary#4">
                         <div class="gallery_hover"><i class="pe-7s-look"></i></div>
                     </div>
                     <div class="gallery_item">
-                        <img src="./img/g5.jpg" alt="Gallery image #5">
+                        <img src="./img/g5.jpg" alt="Galary#5">
                         <div class="gallery_hover"><i class="pe-7s-look"></i></div>
                     </div>
                     <div class="gallery_item">
-                        <img src="./img/g6.jpg" alt="Gallery image #6">
+                        <img src="./img/g6.jpg" alt="Galary#6">
                         <div class="gallery_hover"><i class="pe-7s-look"></i></div>
                     </div>
                     <div class="gallery_item">
-                        <img src="./img/g7.jpg" alt="Gallery image #7">
+                        <img src="./img/g7.jpg" alt="Galary#7">
                         <div class="gallery_hover"><i class="pe-7s-look"></i></div>
                     </div>
                     <div class="gallery_item">
-                        <img src="./img/g8.jpg" alt="Gallery image #8">
+                        <img src="./img/g8.jpg" alt="Gallary#8">
                         <div class="gallery_hover"><i class="pe-7s-look"></i></div>
                     </div>
                 </div>
-                
-                <button class="gallery_button">Load more work</button>           </div>
+                <button class="gallery_button ">Load more work</button>
             </div>
         </div>
     </section>
-    <!-- <section class="work">
+            <section class="work" id="work">
         <div class="container">
             <div class="work_wrap">
-                <h2 class="work_heading common_heading">Our work process</h2>
-                <p class="work_text common_text">Was years it seasons was there form he in in them together over that,
-                    third sixth
+                <h2 class="work_heading common_heading">Our Work Process</h2>
+                <p class="work_text common_text">Was years it seasons was there form he in in them together over that, third sixth
                     gathered female creeping bearing behold years.</p>
                     <div class="work_video">
                         <video poster="./img/vid.jpg">
-                            <source src="./video/video.mp4 " type="video/mp4">
+                            <source src="./video/video.mp4.mp4" type="video/mp4">
                         </video>
                         <button class="work_button"><i class="pe-7s-play"></i></button>
                     </div>
                 </div>
             </div>
-        </section> -->
-    <!-- <section class="review">
-        <div class="container">
-            <div class="review_wrap">
-                <button class="review_btn review_btn_left">
-                    <i class="pe-7s-angle-left "></i>
-
-                </button>
-                <button class="review_btn review_btn_right">
-                    <i class="pe-7s-angle-right"></i>
-                </button>
-                <div class="review_box">
-                    <p class="review_text common_text "> Outstanding job and exceeded all expectations. It was a
-                        pleasure to work
-                        with them on a sizable first project and am looking forward to start the next
-                        one asap.”</p>
-                    <span class="review_text common_text">Michael Hopkins</span>
-                </div>
-                <div class="review_pages">
-                    <div class="review_line review_active"></div>
-                    <div class="review_line"></div>
-                    <div class="review_line"></div>
+        </section>   
+            <section class="apps" id="apps">
+            <div class="container">
+                <div class="apps_wrap">
+                    <div class="apps_item">
+                        <div class="apps_icon"><i class="pe-7s-diamond"></i></div>
+                        <div class="apps_title">ui / ux design</div>
+                        <div class="apps_text">Be set fourth land god darkness
+                            make it wherein own</div>
+                    </div>
+                    <div class="apps_item">
+                        <div class="apps_icon"><i class="pe-7s-arc"></i></div>
+                        <div class="apps_title">web development
+                            </div>
+                        <div class="apps_text">A she'd them bring void moving
+                            third she'd kind fill</div>
+                    </div>
+                    <div class="apps_item">
+                        <div class="apps_icon"><i class="pe-7s-phone"></i></div>
+                        <div class="apps_title">app / mobile</div>
+                        <div class="apps_text">
+                            Dominion man second spirit he,
+                            earth they're creeping</div>
+                    </div>
+                    <div class="apps_item">
+                        <div class="apps_icon"><i class="pe-7s-joy"></i></div>
+                        <div class="apps_text">
+                        <div class="apps_title">game design</div>
+                            Morning his saying moveth it
+                            multiply appear life be</div>
+                    </div>
+                    <div class="apps_item">
+                        <div class="apps_icon"><i class="pe-7s-plane"></i></div>
+                        <div class="apps_title">SEO / marketing</div>
+                        <div class="apps_text">Give won't after land fill creeping
+                            meat you, may</div>
+                    </div>
+                    <div class="apps_item">
+                        <div class="apps_icon"><i class="pe-7s-star"></i></div>
+                        <div class="apps_title">photography</div>
+                        <div class="apps_text">Creepeth one seas cattle grass give
+                            moving saw give</div>
+                            
+                    </div>
+                    <div class="apps_item">
+                        <div class="apps_icon"><i class="pe-7s-coffee"></i></div>
+                        <div class="apps_title">graphic design</div>
+                        <div class="apps_text">Open, great whales air rule for,
+                            fourth life whales</div>
+                    </div>
+                    <div class="apps_item">
+                        <div class="apps_icon"><i class="pe-7s-box1"></i></div>
+                        <div class="apps_title">illustrations</div>
+                        <div class="apps_text">Whales likeness hath, man kind for
+                            them air two won't</div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="project">
-        <div class="container">
-            <div class="project_wrap">
-                <h2 class="project_heading common_heading">Need a project </h2>
-                <p class="project_text common_text ">Let us know what you're looking for in an agency. We'll take a look
-                    and see if this could be the start of
-                    something beautiful.</p>
-                <form class="project_form">
-                    <input type="text" class="project_input_name common_input" placeholder="Your name ">
-                    <input type="text" class="project_input_email common_input" placeholder="Your email">
-                    <input type="text" class="project_input_title common_input" placeholder="Your title">
-                    <textarea type="text" class="project_input_comment common_input"
-                        placeholder="Your comment"></textarea>
-                    <button class="project_button">Send message</button>
+        </section>
+            <section class="reviews" id="reviews">
+                <div class="container">
+                    <div class="reviews_wrap">
+                        <button class="reviews_btn reviews_btn_right">
+                            <i class="pe-7s-angle-right"></i>
+                        </button>
+                        <button class="reviews_btn reviews_btn_left">
+                            <i class="pe-7s-angle-left"></i>
+                        </button>
+                        <div class="reviews_box">
+                            <p class="reviews_text common_text">“ Outstanding job and exceeded all expectations. It was a pleasure
+                                to work
+                                with them on a sizable first project and am looking forward to start the next
+                                one asap.”</p>
+                            <span class="reviews_text common_text">Michael Hopkins</span>
+                        </div>
+                        <div class="reviews_pages">
+                            <div class="reviews_line  reviews_active"></div>
+                            <div class="reviews_line"></div>
+                            <div class="reviews_line"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="logos" id="logos">
+                <div class="container">
+                    <div class="logos_wrap">
+                        <div class="logos_item"><img src="./img/b1.jpg" alt=""></div>
+                        <div class="logos_item"><img src="./img/b2.jpg" alt=""></div>
+                        <div class="logos_item"><img src="./img/b3.jpg" alt=""></div>
+                        <div class="logos_item"><img src="./img/b4.jpg" alt=""></div>
+                        <div class="logos_item"><img src="./img/b5.jpg" alt=""></div>
+                    </div>
+                </div>
+            </section> 
 
-
-                </form>
-            </div>
-        </div>
-    </section>
+            <section class="project" id="project">
+                <div class="container">
+                    <div class="project_wrap">
+                        <h2 class="project_heading common_heading">Need a project?</h2>
+                        <p class="project_text common_text">Let us know what you're looking for in an agency. We'll take
+                            a look and see if this could be the start of
+                            something beautiful.</p>
+                        <form class="project_form">
+                            <input type="text" placeholder="Your name" class="common_input project_input_name">
+                            <input type="email" placeholder="Your emile " class="common_input  project_input_emile">
+                            <input type="text" placeholder="Your title" class="common_input project_input_title">
+                            <textarea class="common_input project_input_comment" placeholder="Your comment"></textarea>
+                            <button class="project_btn">Send message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
     </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer_wrap">
-                <div class="footer_info">
-                    <div class="footer_company"></div>
-                    <div class="footer_text">
-                        <span>© 2017 Piroll. All rights reserved. </span>
-                        <span> Designed by robirurk.</span>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="footer_wrap">
+                    <div class="footer_info">
+                        <h3 class="footer_company common heading">Piroll Design, Inc.</h3>
+                        <div class="footer_block">
+                            <span class="footer_text common_text">© 2017 Piroll. All rights reserved.</span>
+                            <span class="footer_text common_text">Designed by robirurk.</span>
+                        </div>
                     </div>
-                    <div class="footer_contact">
-                        <span>hello@pirolltheme.com</span>
-                        <span>+44 987 065 908</span>
-                    </div>
+                    <address class="footer_block">
+                        <span class="footer_text common_text">hello@pirolltheme.com</span>
+                        <span class="footer_text common_text">+44 987 065 908</span>
+                    </address>
                     <div class="footer_social">
-                        <div class="footer_item"><a href="" class="footer_link">Facebook</a></div>
-                        <div class="footer_item"><a href="" class="footer_link">Facebook</a></div>
-                        <div class="footer_item"><a href="" class="footer_link">Facebook</a></div>
-                        <div class="footer_item"><a href="" class="footer_link">Facebook</a></div>
-                        <div class="footer_item"><a href="" class="footer_link">Facebook</a></div>
-                        <div class="footer_item"><a href="" class="footer_link">Facebook</a></div>
-                        <div class="footer_item"><a href="" class="footer_link">Facebook</a></div>
-                        <div class="footer_item"><a href="" class="footer_link">Facebook</a></div>
-                        <div class="footer_item"><a href="" class="footer_link">Facebook</a></div>
-                        <div class="footer_item"><a href="" class="footer_link">Facebook</a></div>
-                        <div class="footer_item"><a href="" class="footer_link">Facebook</a></div>
-                        <div class="footer_item"><a href="" class="footer_link">Facebook</a></div>
+                        <div class="footer_item common_text"><a href="#" class="footer_link ">Projects</a></div>
+                        <div class="footer_item common_text"><a href="#" class="footer_link ">About</a></div>
+                        <div class="footer_item common_text"><a href="#" class="footer_link ">Servicesk</a></div>
+                        <div class="footer_item common_text"><a href="#" class="footer_link ">Carreerk</a></div>
+                        <div class="footer_item common_text"><a href="#" class="footer_link ">News</a></div>
+                        <div class="footer_item common_text"><a href="#" class="footer_link ">Events</a></div>
+                        <div class="footer_item common_text"><a href="#" class="footer_link ">Contact</a></div>
+                        <div class="footer_item common_text"><a href="#" class="footer_link ">Contact</a></div>
+                        <div class="footer_item common_text"><a href="#" class="footer_link ">Facebook</a></div>
+                        <div class="footer_item common_text"><a href="#" class="footer_link ">Twitter</a></div>
+                        <div class="footer_item common_text"><a href="#" class="footer_link ">Twitter</a></div>
+                        <div class="footer_item common_text"><a href="#" class="footer_link ">Twitter</a></div>
                     </div>
+
                 </div>
             </div>
         </div>
-    </footer> -->
+    </footer>
 </body>
 
 </html>
